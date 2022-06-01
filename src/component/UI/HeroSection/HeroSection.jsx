@@ -1,4 +1,6 @@
+import { BsChatLeftTextFill } from 'react-icons/bs'
 import Button from '@mui/material/Button';
+import { MdFileDownload } from 'react-icons/md'
 import React from 'react'
 import Typed from 'react-typed';
 import heroImage from "../../../assets/homeImage.png"
@@ -38,10 +40,10 @@ const HeroSection = () => {
                     </p>
                     <div className="flex justify-center flex-wrap gap-8">
                         <Button variant="contained" color="error" sx={{ fontWeight: 'bold' }} >
-                            Resume
+                            <MdFileDownload size={20} />&nbsp; Resume
                         </Button>
                         <Button variant="contained" color="error" sx={{ fontWeight: 'bold' }} >
-                            Let's Talk
+                            <BsChatLeftTextFill size={17} />&nbsp; Let's Talk
                         </Button>
                     </div>
                 </div>

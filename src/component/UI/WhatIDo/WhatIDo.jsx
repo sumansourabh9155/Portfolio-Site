@@ -22,7 +22,7 @@ const WhatIDo = () => {
           </svg>
           <h3 className='font-bold lg:text-2xl'>UI/UX</h3>
           <p className='font-semibold text-gray-400'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed massa fames mattis massa sed lacus luctus at mattis.</p>
-          <div className='flex items-center' >
+          <div className='flex justify-center' >
             <a href="#" className="btn btn-primary font-bold">Learn More  </a>
             <BiRightArrowAlt size={30} />
           </div>
@@ -38,8 +38,8 @@ const WhatIDo = () => {
           <br />
           <h3 className='font-bold lg:text-2xl'>Full Stack Website</h3>
           <p className='font-semibold text-gray-400'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed massa fames mattis massa sed lacus luctus at mattis.</p>
-          <div className='flex items-center' >
-            <a href="#" className="btn btn-primary font-bold">Learn More  </a>
+          <div className='flex justify-center' >
+            <a href="#" className="btn btn-primary font-bold ">Learn More  </a>
             <BiRightArrowAlt size={30} />
           </div>
 
@@ -51,7 +51,7 @@ const WhatIDo = () => {
           </svg>
           <h3 className='font-bold lg:text-2xl'>App Development</h3>
           <p className='font-semibold text-gray-400'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed massa fames mattis massa sed lacus luctus at mattis.</p>
-          <div className='flex items-center font-bold' >
+          <div className='flex justify-center font-bold' >
             <a href="#" className="btn btn-primary">Learn More  </a>
             <BiRightArrowAlt size={30} />
           </div>
