@@ -27,7 +27,7 @@ const Navbar = () => {
             <div onClick={setMenu} className="block md:hidden">
                 {!showMenu ? <ImCross size={25} /> : <BiMenuAltRight size={25} />}
             </div>
-            <div className={!showMenu ? "fixed left-0 top-0 w-[60%] h-full border-r-grey-900 pt-8  border-b-2 bg-gray-800 ease-in-out duration-300 md:hidden" : "fixed left-[-100%] md:hidden"}>
+            <div className={!showMenu ? "fixed left-0 top-0 w-[70%] h-full border-r-grey-900 pt-8  border-b-2 bg-gray-800 ease-in-out duration-300 md:hidden" : "fixed left-[-100%] md:hidden"}>
                 <h1 className="w-full text-3xl font-bold pl-8">Suman <spam className="text-[#3DF5EA]">Sourabh</spam></h1>
 
                 <ul className='p-4 uppercase'>
