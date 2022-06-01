@@ -1,5 +1,7 @@
 import { BiMenuAltRight } from 'react-icons/bi';
+import Button from '@mui/material/Button';
 import { ImCross } from 'react-icons/im';
+import Typography from '@mui/material/Typography';
 import { useState } from 'react';
 
 const Navbar = () => {
@@ -17,7 +19,11 @@ const Navbar = () => {
                 <li className="p-4">Projects</li>
 
             </ul>
-            <p className=" hidden md:block">Contact Me</p>
+            <div className=" hidden md:block">
+                <Button variant="contained" color="error" sx={{ fontWeight: 'bold' }} >
+                    Let's Talk
+                </Button>
+            </div>
             <div onClick={setMenu} className="block md:hidden">
                 {!showMenu ? <ImCross size={25} /> : <BiMenuAltRight size={25} />}
             </div>
