@@ -14,7 +14,7 @@ const Hero = () => {
 
                 <h1 className="text-3xl font-bold text-white text-3xl sm:text-5xl md:text-7xl font-bold md:py-3 md:text-left">Website Dev and User <br></br>Interface Designer</h1>
 
-                <div className='flex item-center text-center text-2xl sm:text-3xl md:text-3xl lg:text-4xl font-bold md:py-4 text-gray-300'>
+                <div className='text-2xl  sm:text-3xl md:text-3xl lg:text-4xl font-bold md:py-4 text-gray-300 md:flex md:item-start'>
                     <p className="">I can help in &nbsp;</p>
                     <div className='text-gray-600'>
                         <Typed
@@ -28,19 +28,19 @@ const Hero = () => {
                     </div>
                 </div>
 
-                <div className='text-gray-500 font-bold md:text-left text-sm'>
+                <div className='text-gray-400 font-bold md:text-left text-sm'>
                     <p>Over the past 2 years, I’ve worked on many Projects and</p>
                     <p>up-and-coming startups to successfully help them reach</p>
                     <p>their full potential and attract new customers.</p>
                 </div>
 
-                <div className="pt-7 flex gap-8 " >
-                    <div className=" hidden md:block">
+                <div className="pt-7 flex gap-8 justify-center md:justify-start" >
+                    <div className="md:block">
                         <Button variant="contained" color="error" sx={{ fontWeight: 'bold' }} >
                             Resume
                         </Button>
                     </div>
-                    <div className=" hidden md:block">
+                    <div className=" md:block">
                         <Button variant="contained" color="error" sx={{ fontWeight: 'bold' }} >
                             Let's Talk
                         </Button>
@@ -48,6 +48,10 @@ const Hero = () => {
                 </div>
             </div>
 
+        </div>
+        <div className='flex flex-1 justify-center mb-10 md:m-16 lg:m-0'>
+
+            <img className='w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full' src={"./homeImage.png"} alt="Suman Sourabh" />
         </div>
     </div>)
 }
