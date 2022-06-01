@@ -9,9 +9,9 @@ const HeroSection = () => {
             <div class="text-white container flex flex-col-reverse lg:flex-row items-center gap-12 mt-1  lg:mt-8 pl-4 lg:pl-8">
 
                 <div className="flex flex-1 flex-col items-center lg:items-start lg:pt-6">
-                    <p className="text-[#c14848] font-semibold text-lg md:text-left">Suman Sourabh</p>
+                    <p className="text-[#9b3838] font-regular text-2xl md:text-left">Suman Sourabh</p>
 
-                    <h2 class="text-3xl font-bold text-white text-3xl sm:text-5xl md:text-6xl text-center lg:text-left mb-6 ">
+                    <h2 class="text-3xl pr-8 font-bold text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-center lg:text-left ">
                         Website Dev and User Interface Designer
                     </h2>
                     <div className='text-2xl  sm:text-3xl md:text-3xl lg:text-4xl font-bold md:py-4 text-gray-300 md:flex md:item-start text-center'>
@@ -29,14 +29,14 @@ const HeroSection = () => {
                     </div>
 
 
-                    <p className="text-gray-400 font-bold text-md text-center lg:text-left mb-6">
+                    <p className="text-gray-400 font-bold text-md text-center lg:text-left mb-6 lg:pr-6">
                         Over the past 2 years, I’ve worked on many Projects and
 
                         up-and-coming startups to successfully help them reach
 
                         their full potential and attract new customers.
                     </p>
-                    <div className="flex justify-center flex-wrap gap-6">
+                    <div className="flex justify-center flex-wrap gap-8">
                         <Button variant="contained" color="error" sx={{ fontWeight: 'bold' }} >
                             Resume
                         </Button>
