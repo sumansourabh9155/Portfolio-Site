@@ -1,14 +1,14 @@
 import Typed from 'react-typed';
 
 const Hero = () => {
-    return (<div className="p-4">
+    return (<div className="pl-10">
         <div className="text-white container flex flex-col-reverse lg:flex-row items-center gap-12 mt-14 lg:mt-20">
 
             {/* Text at the left */}
 
             <div className="flex flex-1 flex-col item-center lg:items-start">
 
-                <p className="text-[#F55B5B] font-bold">Suman Sourabh</p>
+                <p className="text-[#c14848] font-semibold text-lg">Suman Sourabh</p>
 
                 <h1 className="text-3xl font-bold text-white text-3xl sm:text-5xl md:text-7xl font-bold md:py-3">Website and User <br></br>Interface Designer</h1>
 
