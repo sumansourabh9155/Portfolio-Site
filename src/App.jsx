@@ -10,7 +10,7 @@ function App() {
 
 
   return (
-    <div className='app'>
+    <div className='lg:pl-18 lg:pr-18 md:pl-10 md:pr-10 pl-1 pr-1'>
       <Navbar />
       <HeroSection />
       <WhatIDo />
