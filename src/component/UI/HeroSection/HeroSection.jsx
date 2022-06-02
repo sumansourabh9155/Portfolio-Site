@@ -51,6 +51,9 @@ const HeroSection = () => {
                     <img className="w-60 h-auto sm:w-70 sm:h-auto md:w-[53%] md:h-full" src={heroImage} alt="" />
                 </div>
             </div>
+            <div
+                class="hidden md:block overflow-hidden bg-bookmark-red rounded-l-full rounded-l-full absolute h-80 w-2/4 top-32 right-0 lg:-bottom-28 lg:-right-36"
+            ></div>
         </div>
     )
 }

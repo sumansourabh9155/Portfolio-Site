@@ -4,6 +4,7 @@ import { HelpU } from './component/UI/HelpUi/HelpU';
 import HeroSection from "./component/UI/HeroSection/HeroSection";
 import Navbar from './component/UI/Navbar/Navbar'
 import WhatIDo from './component/UI/WhatIDo/WhatIDo';
+import WhyMe from './component/UI/WhyMe/WhyMe';
 import { useState } from 'react'
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <HeroSection />
       <WhatIDo />
       <HelpU />
+      <WhyMe />
     </div>
   )
 }
